@@ -1,8 +1,11 @@
 import './App.css';
-
+import { BrowserRouter } from "react-router-dom"; 
+import RouterConvention from './components/router/RouterConvention';
 function App() {
   return (
-  <h1>hello</h1> 
+  <BrowserRouter>
+    <RouterConvention/>
+  </BrowserRouter>
   );
 }
 
